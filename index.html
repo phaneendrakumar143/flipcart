@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <!-- navbar -->
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="images/logo.svg 
+      " alt="flipcart logo"></a>
+      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button> -->
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <!-- <button class="btn btn-outline-success " type="submit">Search</button> -->
+      </form>
+
+
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li>
+            <nav class="navbar bg-body-tertiary">
+              <div class="phani">
+
+                <a class="navbar-brand" href="#">
+                  <pre></pre>
+                  <i class="bi bi-person-circle">login</i>
+                </a>
+                <a class="navbar-brand" href="#">
+                  <i class="bi bi-cart3"> cart</i>
+                </a>
+              </div>
+            </nav>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- fashion -->
+  <div class="container-fluid ">
+    <div class="row ">
+      <div class="col d-inline-flex phani">
+        <div><img src="images/groc.webp" alt="">
+          <p>grocery</p>
+        </div>
+        <div><img src="images/mobile.webp" alt="">
+          <p>Mobiles</p>
+        </div>
+
+        <div><img src="images/fashion.webp" alt="">
+          <p>fashion</p>
+        </div>
+
+        <div><img src="images/electroni.webp" alt="">
+          <p>electronics</p>
+        </div>
+        <div><img src="images/home.webp" alt="">
+          <p>home&<br>&nbsp furniture</p>
+        </div>
+        <div><img src="images/appliances.webp" alt="">
+          <p>appliances</p>
+        </div>
+
+        <div><img src="images/travel.webp" alt="">
+          <p>travel</p>
+        </div>
+        <div><img src="images/toys.webp" alt="">
+          <p>Beauty&Toys</p>
+        </div>
+        <div><img src="images/bike.webp" alt="">
+          <p>two wheelers</p>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  <!-- carosoul -->
+  <div class="container-fluid ">
+    <div class="row">
+      <div class="col">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="active"
+              aria-current="true" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" class="active"
+              aria-current="true" aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active ">
+              <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/dddee4b7392b1301.jpg?q=20"
+                class="d-block w-100" alt="1">
+            </div>
+
+            <div class="carousel-item">
+              <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/c8db5bce20f2def7.jpg?q=20"
+                class="d-block w-100" alt="2">
+            </div>
+            <div class="carousel-item">
+              <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/585a93b0ebfd39c2.jpg?q=20"
+                class="d-block w-100" alt="3">
+            </div>
+            <div class="carousel-item">
+              <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/57a7005039a1da2e.jpg?q=20"
+                class="d-block w-100" alt="3">
+            </div>
+            <div class="carousel-item">
+              <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/10476191a413d7c8.jpg?q=20"
+                class="d-block w-100" alt="3">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- discount button -->
+  <div class="discount">
+
+    <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/140/image/065bf4ed0fee4532.jpg?q=20" alt="">
+
+  </div>
+
+  <!-- body -->
+  <div class="container mobile ">
+    <h3>Best Mobiles</h3>
+  </div>
+  <!-- cards -->
+  <div class="container-fluid ">
+    <div class="row pspk">
+      <div class="col">
+        <div class="card" style="width: 12rem;">
+          <img src="https://static.toiimg.com/thumb/resizemode-4,msid-54183029,imgsize-500,width-800/54183029.jpg"
+            class="card-img-top" alt=".1." height="245px">
+          <div class="card-body">
+            <h5 class="card-title">Nokia 1200 </h5>
+            <p class="card-text">price dropped from<del> $20 </del> &nbsp;to &nbsp;$10&nbsp;<br> <span
+                class="text-success">50% off</span> </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 12rem;">
+          <img src="images/i phone 14.jpg" class="card-img-top" alt=".2." height="250px">
+          <div class="card-body ">
+            <h4 class="card-title">iphone14 </h4>
+            <p class="card-text">price<del> $1000 </del> &nbsp;to &nbsp;$900&nbsp;<br> <span class="text-success">10%
+                off</span> </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 12rem;">
+          <img src="images/i 13.jpg " class="card-img-top" alt=".3." height="250px">
+          <div class="card-body ">
+            <h4 class="card-title">iphone13 </h4>
+            <p class="card-text">price<del> $1000 </del> &nbsp;to &nbsp;$900&nbsp;<br> <span class="text-success">10%
+                off</span> </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 12rem;">
+          <img src="images/i 12.jpg" class="card-img-top" alt=".4.">
+          <div class="card-body ">
+            <h4 class="card-title">iphone12 </h4>
+            <p class="card-text">price<del> $1000 </del> &nbsp;to &nbsp;$900&nbsp;<br> <span class="text-success">10%
+                off</span> </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 12rem;">
+          <img src="images/mi 11 t.jpg" class="card-img-top" alt=".5." height="250px">
+          <div class="card-body ">
+            <h4 class="card-title">Redmi 11 </h4>
+            <p class="card-text">price<del> $1000 </del> &nbsp;to &nbsp;$900&nbsp;<br> <span class="text-success">10%
+                off</span> </p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-- cards 2 -->
+  <div class="container-fluid  d-flex pt-3">
+    <div class="container w-50 ">
+      <div class="row pspkk">
+        <h3 class="mt-5">Top Trending Deals</h3>
+      </div>
+      <div class="row pspktwo mt-5">
+        <div class="col">
+          <div class="card" style="width: 14rem;">
+            <img
+              src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/r/e/m/-original-imagsfdvuffvqx4x.jpeg?q=70"
+              class="card-img-top" alt="..." height="200px ">
+            <div class="card-body">
+              <h5 class="card-title">NIKE Shoes & more........</h5>
+              <p class="card-text"><span class="text-primary">min 30-40% off on all deals</span>
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col">
+          <div class="card" style="width: 14rem;">
+            <img src="images/dress.jpg" class="card-img-top" alt="..." height="200px ">
+            <div class="card-body">
+              <h5 class="card-title"> FASHION & more......</h5>
+              <p class="card-text"><span class="text-primary"> min 20% off on all deals</span></p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col mt-2">
+          <div class="card" style="width: 14rem;">
+            <img src="images/MEN.jpg" class="card-img-top" alt="..." height="200px ">
+            <div class="card-body">
+              <h5 class="card-title"> Men fashion & more......</h5>
+              <p class="card-text"><span class="text-primary">starts from 300& min 20% off on all deals</span></p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col mt-2">
+          <div class="card" style="width: 14rem;;">
+            <img
+              src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MT653_VW_34FR+watch-49-titanium-ultra2_VW_34FR+watch-face-49-ocean-ultra2_VW_34FR_GEO_IN?wid=5120&hei=3280&bgc=fafafa&trim=1&fmt=p-jpg&qlt=80&.v=VHdUV3VJeUQyYW5oUlVUN3ZHS1VsL3Z4OU1ucmxYekw5aGF6a2ZZcG9hazdPN2hFakIxbjdEcTdvSm41NlVxWjY4QUVCdUdBMlBPcFgrL3RBcVB1cmY5akxmSjBzTThIaWphQnAvU3pXTzIxdHhVWFZxZklidU5BYllKNWFXZGl2S1B4dHJnZWVOenUzMmROdk9lOEdvSk43K25VYm5JaE5XMFJ6MEt5SVUydE13ZlhvMEpDZW1JRkhPN0RCZ0xWV1A4WkJQQ3BvYXllL2FBdjdLS29NZz09"
+              class="card-img-top" alt="shoe " height="200px">
+            <div class="card-body">
+              <h5 class="card-title">watches, & More..</h5>
+              <p class="card-text"> <span class="text-success "> min 50% 0ff</span></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- 75% container -->
+    <div class="container w-50 ">
+      <div class="row">
+        <div class="col pspkthree"><span class="text-warning">
+            <h1>BEST OFFERS ON THIS PONGAL FESTIVAL</h1>
+          </span></div>
+      </div>
+      <div class="card mt-5 pspkfour" style="width: 45rem;">
+        <img src="images/pongai.jpg" class="card-img-top" alt="..." height="600px">
+        <div class="card-body">
+          <span class="text-success">
+            <H3 class="card-text center"> MIN 50-60% OFF ON ALL DEALS</H3>
+          </span>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!-- foooooooootttttteeeerrrr -->
+  <footer>
+    <div class="container-fluid ">
+      <div class="row">
+        <div class="col mt-3 ">
+          <h2>Get Connected With Us On Social Media: </h2>
+        </div>
+        <div class="col icon">
+          <a href="" class="">
+            <i class="bi bi-facebook col"></i>
+          </a>&nbsp;&nbsp;&nbsp;
+          <a href="" class="" style="color: crimson;">
+            <i class="bi bi-instagram"></i>
+          </a>&nbsp;&nbsp;&nbsp;
+          <a href="" class="" style="color: rgb(244, 10, 10);">
+            <i class="bi bi-youtube"></i>
+          </a>&nbsp;&nbsp;&nbsp;
+          <a href="" class="">
+            <a href="" class="">
+              <i class="bi bi-twitter"></i>
+            </a>&nbsp;&nbsp;&nbsp;
+            <a href="" class="">
+              <i class="bi bi-linkedin"></i>
+            </a>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-secondary footer">
+      <div class="row mt-4 about">
+        <div class="col-2 mt-4 ">
+          <ul>
+            <li>
+              <h2>About</h2>
+            </li>
+            <li>
+              contract us
+            </li>
+            <li> careers</li>
+            <li>Flipcart stores</li>
+            <li>Press</li>
+            <li>Corporate information</li>
+          </ul>
+        </div>
+        <div class="col-2 product mt-4">
+          <ul>
+            <h2>products</h2>
+            <p>
+              <a href="#" class="text-reset">Fashion Dress</a>
+            </p>
+            <p>
+              <a href="#" class="text-reset">Mens Wear</a>
+            </p>
+            <p>
+              <a href="" class="text-reset">Kids Toys</a>
+            </p>
+            <p>
+              <a href="#" class="text-reset">Electronics</a>
+            </p>
+
+
+          </ul>
+
+        </div>
+        <div class="col-2 useful mt-4">
+          <ul>
+            <h2>Useful Links</h2>
+
+            <p>
+              <a href="#" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </ul>
+        </div>
+        <div class="col-3 help mt-4">
+          <ul>
+            <h2>Consumer Policy</h2>
+            <p>
+              <a href="#" class="text-reset">cancellation& Returns</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Terms Of Use</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Security</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Privacy</a>
+            </p>
+
+
+          </ul>
+        </div>
+        <div class="col-md contract mt-4">
+          <h2>Contract Us</h2>
+          <ul>
+            <p>
+              Flipkart Internet Private Limited,
+            </p>
+            <p>
+              Outer Ring Road Devarabeesanahalli village,
+            </p>
+            <p>
+              Benguluru,560103,
+            </p>
+            <p> Karanataka,India.</p>
+            <p>Telephone:044-45614700</p>
+            <p></p>
+          </ul>
+
+
+
+        </div>
+      </div>
+    </div>
+    <div class="container mt-3">
+      <div class="row text-center copy ">
+
+        <p class="bi bi-c-circle">2007-2004 Flipcart.com</p>
+
+      </div>
+    </div>
+
+
+
+
+
+  </footer>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
